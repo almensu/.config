@@ -1,0 +1,5 @@
+/.config/*
+
+!espanso/
+!nvim/
+!terminator/

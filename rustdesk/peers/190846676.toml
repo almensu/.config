@@ -1,0 +1,37 @@
+password = []
+size = [
+    26,
+    23,
+    1482,
+    936,
+]
+size_ft = [
+    0,
+    0,
+    0,
+    0,
+]
+size_pf = [
+    0,
+    0,
+    0,
+    0,
+]
+view_style = ''
+image_quality = ''
+custom_image_quality = []
+show_remote_cursor = false
+lock_after_session_end = false
+privacy_mode = false
+port_forwards = []
+direct_failures = 0
+disable_audio = false
+disable_clipboard = false
+enable_file_transfer = false
+
+[options]
+
+[info]
+username = 'Administrator'
+hostname = 'SC-201910251020'
+platform = 'Windows'
