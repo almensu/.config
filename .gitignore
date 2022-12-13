@@ -1,5 +1,5 @@
 /.config/*
 
-!espanso/
-!nvim/
-!terminator/
+!espanso/*
+!nvim/*
+!terminator/*
