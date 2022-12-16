@@ -1,5 +1,13 @@
-/.config/*
+# ignore everything
+/*
+/*/
 
-!espanso/*
-!nvim/*
-!terminator/*
+
+# but this
+!/espanso/
+!/nvim/
+!/README.md
+
+
+
+
