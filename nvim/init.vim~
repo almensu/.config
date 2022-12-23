@@ -57,6 +57,16 @@ set formatoptions=qrn1
 set splitright
 set splitbelow
 
+" ==================== Basic Mappings ====================
+let mapleader=" "
+noremap ; :
+nnoremap Q :q<CR>
+nnoremap S :w<CR>
+
+map R :source $MYVIMRC<CR>
+map Q :wq<CR>
+
+
 call plug#begin('~/local/share/nvim/plugged')
 " The default plugin directory will be as follows:
 "   - Vim (Linux/macOS): '~/.vim/plugged'
@@ -119,7 +129,5 @@ else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
 
-map R :source $MYVIMRC<CR>
-map Q :wq<CR>
 
 
