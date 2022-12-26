@@ -121,6 +121,8 @@ chmod +x ~/.vocab
 alias clear="clear;~/.vocab"
 
 
+source ~/.fzf/shell/key-bindings.bash
+source ~/.fzf/shell/completion.bash
 
 
 

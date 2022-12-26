@@ -1,4 +1,5 @@
-22222:
+
+
 
 syntax on
 set dictionary+=/usr/share/dict/words
@@ -111,7 +112,8 @@ Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
 
 " Plugin outside ~/.vim/plugged with post-update hook
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Unmanaged plugin (manually installed and updated)
 Plug '~/my-prototype-plugin'
