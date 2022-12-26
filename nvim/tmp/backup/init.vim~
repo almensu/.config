@@ -72,6 +72,10 @@ nnoremap S :w<CR>
 map R :source $MYVIMRC<CR>
 map Q :wq<CR>
 
+" copy
+vnoremap <C-c> "+y
+map <C-v> "+P
+vnoremap <C-c> "*y :let @+=@*<CR>
 
 call plug#begin('~/local/share/nvim/plugged')
 " The default plugin directory will be as follows:

@@ -1,0 +1,24 @@
+# Setup fzf
+# ---------
+if [[ ! "$PATH" == */home/root1/.fzf/bin* ]]; then
+  PATH="${PATH:+${PATH}:}/home/root1/.fzf/bin"
+fi
+
+# Auto-completion
+# ---------------
+[[ $- == *i* ]] && source "/home/root1/.fzf/shell/completion.bash" 2> /dev/null
+
+# Key bindings
+# ------------
+source "/home/root1/.fzf/shell/key-bindings.bash"
+
+# my zfz
+
+export FZF_DEFAULT_OPTS='--bind=ctrl-t:top,change:top --bind ctrl-e:down,ctrl-u:up'
+export FZF_DEFAULT_COMMAND='fd'
+export FZF_COMPLETION_TRIGGER='\'
+
+#1
+#2
+#3
+#4
