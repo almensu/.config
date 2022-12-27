@@ -18,7 +18,30 @@ export FZF_DEFAULT_OPTS='--bind=ctrl-t:top,change:top --bind ctrl-e:down,ctrl-u:
 export FZF_DEFAULT_COMMAND='fd'
 export FZF_COMPLETION_TRIGGER='\'
 
+<<<<<<< HEAD
 #1
 #2
 #3
 #4
+=======
+# Options to fzf command
+export FZF_COMPLETION_OPTS='--border --info=inline'
+
+# fd, ripgrep, or the silver searcher
+# Feed the output of fd into fzf
+#fd --type f --strip-cwd-prefix | fzf
+
+# Setting fd as the default source for fzf
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+
+# Now fzf (w/o pipe) will use fd instead of find
+#fzf
+
+# To apply the command to CTRL-T as well
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+# Full command on preview window
+export FZF_CTRL_R_OPTS='--no-sort --exact'
+export FZF_CTRL_R_OPTS="--preview 'echo {}' --preview-window down:3:hidden:wrap --bind '?:toggle-preview'"
+
+>>>>>>> 6dff624 (g:ag_prg)

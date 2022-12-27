@@ -1,4 +1,5 @@
-22222:
+
+
 
 syntax on
 set dictionary+=/usr/share/dict/words
@@ -140,5 +141,10 @@ else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
 
+<<<<<<< HEAD
 
 
+=======
+" ag.vim
+let g:ag_prg="<custom-ag-path-goes-here> --vimgrep"
+>>>>>>> 6dff624 (g:ag_prg)

@@ -142,4 +142,5 @@ else
 endif
 
 
-
+" ag.vim
+let g:ag_prg="<custom-ag-path-goes-here> --vimgrep"

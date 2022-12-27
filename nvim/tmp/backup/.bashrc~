@@ -18,6 +18,12 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
+<<<<<<< HEAD
+=======
+HISFILE=~/.bash_history
+
+
+>>>>>>> 6dff624 (g:ag_prg)
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -121,8 +127,11 @@ chmod +x ~/.vocab
 alias clear="clear;~/.vocab"
 
 
+<<<<<<< HEAD
 source ~/.fzf/shell/key-bindings.bash
 source ~/.fzf/shell/completion.bash
+=======
+>>>>>>> 6dff624 (g:ag_prg)
 
 
 
